@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Pocket LLM</string>
+    <string name="app_description">一个面向 OpenAI 兼容服务器的本地优先 LLM 聊天客户端。</string>
+    <string name="app_github_url">https://github.com/nuttingd/pocket-llm</string>
+
+    <!-- Common -->
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="rename">重命名</string>
+    <string name="edit">编辑</string>
+    <string name="back">返回</string>
+    <string name="confirm">确认</string>
+    <string name="ok">确定</string>
+    <string name="test">测试</string>
+    <string name="testing">测试中…</string>
+    <string name="select">选择</string>
+    <string name="active">已激活</string>
+
+    <!-- Setup -->
+    <string name="setup_title">欢迎使用 Pocket LLM</string>
+    <string name="setup_subtitle">选择你的 LLM 使用方式</string>
+    <string name="setup_local_title">本地模型</string>
+    <string name="setup_local_desc">在设备上下载并运行模型</string>
+    <string name="setup_server_title">连接服务器</string>
+    <string name="setup_server_desc">使用 OpenAI 兼容的 API 服务器</string>
+
+    <!-- Conversations -->
+    <string name="conversations">对话</string>
+    <string name="new_chat">新对话</string>
+    <string name="search_conversations">搜索对话</string>
+    <string name="search_messages_hint">搜索消息…</string>
+    <string name="no_results_found">未找到结果</string>
+    <string name="no_conversations_yet">暂无对话</string>
+    <string name="rename_conversation">重命名对话</string>
+    <string name="title">标题</string>
+
+    <!-- Settings -->
+    <string name="settings">设置</string>
+    <string name="llm_providers">LLM 提供商</string>
+    <string name="manage_servers">管理服务器</string>
+    <string name="local_models">本地模型</string>
+    <string name="appearance">外观</string>
+    <string name="theme">主题</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="dynamic_colors">动态取色（Material You）</string>
+    <string name="message_font_size">消息字体大小</string>
+    <string name="generation_defaults">生成默认值</string>
+    <string name="default_system_prompt">默认系统提示词</string>
+    <string name="temperature">温度</string>
+    <string name="max_tokens">最大 Token 数</string>
+    <string name="top_p">Top-P</string>
+    <string name="frequency_penalty">频率惩罚</string>
+    <string name="presence_penalty">存在惩罚</string>
+    <string name="advanced">高级</string>
+    <string name="compaction_threshold">压缩阈值</string>
+    <string name="about">关于</string>
+    <string name="about_pocket_llm">关于 Pocket LLM</string>
+
+    <!-- Server -->
+    <string name="manage_servers_title">管理服务器</string>
+    <string name="add_server">添加服务器</string>
+    <string name="server_name">服务器名称</string>
+    <string name="base_url">基础 URL</string>
+    <string name="base_url_hint">http://localhost:11434</string>
+    <string name="api_key_optional">API Key（可选）</string>
+    <string name="request_timeout">请求超时</string>
+    <string name="seconds">秒</string>
+    <string name="api_key_configured">已配置 API Key</string>
+
+    <!-- Chat -->
+    <string name="type_a_message">输入消息…</string>
+    <string name="attach_image">添加图片</string>
+    <string name="take_photo">拍照</string>
+    <string name="send_message">发送消息</string>
+    <string name="stop_generating">停止生成</string>
+    <string name="remove_image">移除图片</string>
+    <string name="attached_image">已附加图片</string>
+
+    <!-- Model Management -->
+    <string name="local_models_title">本地模型</string>
+    <string name="download_on_cellular_title">使用移动网络下载？</string>
+    <string name="download_on_cellular_msg">当前未连接 Wi-Fi，下载可能消耗大量流量，是否继续？</string>
+    <string name="download_anyway">继续下载</string>
+    <string name="delete_model_title">删除模型？</string>
+    <string name="delete_model_msg">将从设备中删除该模型文件，之后可以重新下载。</string>
+    <string name="import_gguf">导入 GGUF</string>
+    <string name="unload_model">卸载模型</string>
+    <string name="downloaded_models">已下载模型</string>
+    <string name="downloads">下载中</string>
+    <string name="available_models">可用模型</string>
+    <string name="engine_status">引擎状态</string>
+    <string name="no_model_loaded">未加载模型</string>
+    <string name="loading_model">正在加载模型…</string>
+    <string name="ready">就绪</string>
+    <string name="generating">生成中…</string>
+    <string name="gpu_offload">GPU 卸载：%1$d%%</string>
+    <string name="gpu_offload_hint">数值越高占用 GPU 内存越多，但运行更快</string>
+</resources>
